@@ -70,14 +70,11 @@ article p{
 }
 .middle{
     margin-bottom: 50px;
-    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,auto);
-    justify-content: space-evenly;
-    gap: 15px 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 .contain{
-    width: 400px;
     border: 2px solid rgb(125, 247, 135);
     border-radius: 5px;
     display: flex;
@@ -90,7 +87,6 @@ article p{
     padding: 5px;
     width:90% ;
     height: 80%;
-    font-size: 20px;
 }
 .contain p{
     color: goldenrod;
