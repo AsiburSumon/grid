@@ -65,18 +65,27 @@ article p{
 .videos{
     width: 500px;
     height: 300px;
-    box-shadow:10px 5px 30px rgba(255, 0, 0, 0.61);
 }
 .middle{
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 30px;
 }
 .contain {
     border: 2px solid rgb(125, 247, 135);
     border-radius: 5px;
+   
     
+}
+.contain:hover a img{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scaleX(-1.1);
 }
 .contain a{
     text-decoration: none;
@@ -85,11 +94,13 @@ article p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .contain img{
     padding: 5px;
     width:90% ;
     height: 80%;
+    transition: transform 1s ease;
 }
 .contain p{
     color: goldenrod;
