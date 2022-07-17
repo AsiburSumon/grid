@@ -101,7 +101,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
     .middle{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
