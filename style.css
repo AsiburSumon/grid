@@ -79,6 +79,7 @@ article p{
 .contain{
     width: 400px;
     border: 2px solid rgb(125, 247, 135);
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
